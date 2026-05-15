@@ -1,0 +1,56 @@
+.git
+.gitignore
+.dockerignore
+
+# Python cache and build output
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+config_local.py
+
+# Logs and runtime output
+logs/
+*.log
+
+# Local databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# IDE and OS files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary generated files
+*.tmp
+*.bak
+test_*.png
+test_*.pdf

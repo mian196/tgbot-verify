@@ -53,9 +53,6 @@ logs/
 # Configuration (with sensitive data)
 config_local.py
 
-# Docker
-.dockerignore
-
 # Playwright
 .playwright/
 
